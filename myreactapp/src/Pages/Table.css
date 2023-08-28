@@ -1,0 +1,23 @@
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: center;
+    vertical-align: center;
+  }
+  
+  /* Additional styles for table appearance */
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Add borders to the table cells */
+  td {
+    border: 1px solid #ddd;
+  }
+

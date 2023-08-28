@@ -1,0 +1,62 @@
+/* Styling for the SignUp form */
+.signup-form {
+    background-color: #68929483;
+    border: 8px solid #4554638c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(201, 33, 33, 0.1);
+  }
+  
+  .signup-form h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form .form-label {
+    font-size: 18px;
+  }
+  
+  .signup-form .form-control {
+    font-size: 16px;
+  }
+  
+  .signup-form .btn-primary {
+    font-size: 18px;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .signup-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .signup-form .btn-warning {
+    font-size: 18px;
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  .signup-form .btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+  }
+  
+  .signup-form p {
+    font-size: 16px;
+  }
+  
+  .signup-form a {
+    text-decoration: none;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 576px) {
+    .signup-form {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  
